@@ -1,0 +1,8 @@
+{%extends 'template.html'%} {%block title%}Home{%endblock%} {%block content%}
+<h2>{{title}}</h2>
+<form action="/begin" method="POST">
+  <label>{{instructions}}</label> <br />
+  <button>Start</button>
+</form>
+
+{%endblock%}
